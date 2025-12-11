@@ -1,5 +1,4 @@
+A list of [Ghost Bikes](https://en.wikipedia.org/wiki/Ghost_bike) in Burlington Ontario, combined from OpenStreetMap (`memorial=ghost_bike`) and a hand-maintained list of former installations ([historic.geojson]).
 
-
-GeoJSON files ending in the `.geojson` extension can be visualized directly in github.
-
-https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#mapping-geojsontopojson-files-on-github
+* View in github: https://github.com/ellieayla/burlington-ghost-bikes/blob/main/all.geojson
+* View in geojson.io: https://geojson.io/#id=github:ellieayla/burlington-ghost-bikes/blob/main/all.geojson&map=11.41/43.3415/-79.7978
