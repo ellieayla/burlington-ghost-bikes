@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "@note": "These nodes no longer exist (or never existed) in OSM, and shouldn't be added because the memorials have been removed.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "historic": "memorial",
+        "memorial": "ghost_bike",
+        "subject": "Detlef (Doug) Fritz",
+        "start_date": "2023-05-27",
+        "end_date": "2024-08",
+        "website": "https://jnyyz.wordpress.com/2023/05/27/memorial-ride-for-doug-fritz/",
+        "streetview": "https://www.google.com/maps/@43.3148685,-79.8080166,3a,15y,147.2h,82.47t/data=!3m7!1e1!3m5!1svZXEnR9Ty_Hw1RVsKQgq-g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D7.530000000000001%26panoid%3DvZXEnR9Ty_Hw1RVsKQgq-g%26yaw%3D147.2!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MTIwOC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.80850566524485,
+          43.314579534890555
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "historic": "memorial",
+        "memorial": "ghost_bike",
+        "check_date": "2025-05",
+        "streetview": "https://maps.app.goo.gl/C87hyJLdzBT8UknR7"        
+      },
+      "geometry": {
+        "coordinates": [
+          -79.80674079616998,
+          43.31544557134464
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}

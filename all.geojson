@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/13274431364",
+      "properties": {
+        "check_date": "2025-11-01",
+        "historic": "memorial",
+        "inscription": "Jean Louis. Champion cyclist from Saint Lucia died 17 Oct 2025, 66 years old. You never ride alone.",
+        "memorial": "ghost_bike",
+        "start_date": "2025-11-01",
+        "website": "https://stluciatimes.com/174164/2025/10/cycling-star-jean-louis-dead-at-66",
+        "id": "node/13274431364"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7685426,
+          43.3785165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "historic": "memorial",
+        "memorial": "ghost_bike",
+        "subject": "Detlef (Doug) Fritz",
+        "start_date": "2023-05-27",
+        "end_date": "2024-08",
+        "website": "https://jnyyz.wordpress.com/2023/05/27/memorial-ride-for-doug-fritz/",
+        "streetview": "https://www.google.com/maps/@43.3148685,-79.8080166,3a,15y,147.2h,82.47t/data=!3m7!1e1!3m5!1svZXEnR9Ty_Hw1RVsKQgq-g!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D7.530000000000001%26panoid%3DvZXEnR9Ty_Hw1RVsKQgq-g%26yaw%3D147.2!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MTIwOC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.80850566524485,
+          43.314579534890555
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "historic": "memorial",
+        "memorial": "ghost_bike",
+        "check_date": "2025-05",
+        "streetview": "https://maps.app.goo.gl/C87hyJLdzBT8UknR7"
+      },
+      "geometry": {
+        "coordinates": [
+          -79.80674079616998,
+          43.31544557134464
+        ],
+        "type": "Point"
+      }
+    }
+  ]
+}
