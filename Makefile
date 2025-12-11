@@ -25,6 +25,9 @@ ghost_bikes.osm:
 	grep -q '<node ' ghost_bikes.osm
 	grep -q '<osm ' ghost_bikes.osm
 
+.PHONY: test
+test: node_modules/@mapbox/geojson-merge/geojson-merge
+	./node_modules/@mapbox/geojson-merge/geojson-merge ./README.md > /dev/null
 
 .PHONY: clean
 clean:
