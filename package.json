@@ -1,0 +1,7 @@
+{
+  "packageManager": "npm",
+  "dependencies": {
+    "@mapbox/geojson-merge": "^1.1.1",
+    "osmtogeojson": "^3.0.0-beta.5"
+  }
+}
