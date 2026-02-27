@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '39 2 * * *'  # 02:39 UTC every day
+    - cron: '39 2 * * 4'  # 02:39 UTC on Thursday
 
 jobs:
   scheduled:
@@ -32,11 +32,15 @@ jobs:
         make clean
         make
 
+    - name: Record last run
+      run: |
+        date > lastrun.txt
+
     - name: Commit and push if it changed
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         branch: main
-        file_pattern: 'all.geojson'
+        file_pattern: 'all.geojson lastrun.txt'
         commit_user_name: GitHub Actions # defaults to "GitHub Actions"
         commit_user_email: actions@github.com # defaults to "actions@github.com"
         commit_author: GitHub Actions <actions@github.com> # defaults to author of the commit that triggered the run
